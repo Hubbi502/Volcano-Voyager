@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Penjelasan",
+		"tags": "",
+		"body": "Ini adalah jenis gunung shield volcano",
+		"position": {
+			"x": 208,
+			"y": -47
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 583,
+			"y": 15
+		},
+		"colorID": 0
+	}
+]

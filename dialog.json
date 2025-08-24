@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Penjelasan",
+		"tags": "penjelasan",
+		"body": "[color=#212121]Ini adalah jenis gunung[/color] [color=#ffbb01]shield volcano[/color][[ Penjelasan2 |Penjelasan2]]",
+		"position": {
+			"x": -397,
+			"y": 90
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Penjelasan2",
+		"tags": "",
+		"body": "[color=#212121]Gunung berapi ini terbentuk oleh letusan lava yang sangat cair[/color]\n[[ Penjelasan3: |Penjelasan3]]",
+		"position": {
+			"x": -570,
+			"y": -195
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Penjelasan3",
+		"tags": "",
+		"body": "[color=#212121]SELAMAT!! KAMU MEMBUKA [/color][color=#bf0000]TANTANGAN[/color]",
+		"position": {
+			"x": -144,
+			"y": -202
+		},
+		"colorID": 0
+	}
+]

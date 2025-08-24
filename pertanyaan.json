@@ -1,0 +1,29 @@
+[
+  {
+    "question":"Apa hal pertama yang harus kamu lakukan saat mendengar suara letusan gunung? ",
+    "options":[
+      "Tetap bermain di luar",
+      "Segera bersiap dan mengikuti jalur evakuasi",
+      "Pergi ke arah gunung untuk melihat lebih dekat"
+    ],
+    "correctAnswer":1
+  },
+  {
+    "question":"Apa benda yang harus dibawa saat evakuasi?",
+    "options":[
+      "Mainan dan ponsel",
+      "Buku pelajaran dan undian ulang tahun",
+      "Masker, Kotak P3K dan Air"
+    ],
+    "correctAnswer":2
+  },
+  {
+    "question":"Mengapa kita harus memakai masker saat terjadi letusan?",
+    "options":[
+      "Supaya tidak dikenali orang",
+      "Untuk terlihat keren",
+      "Untuk melindungi diri dari abu vulkanik"
+    ],
+    "correctAnswer":2
+  }
+]
