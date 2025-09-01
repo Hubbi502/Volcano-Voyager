@@ -1053,6 +1053,166 @@
         "name": "adventure-badge2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "bgm2 - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bgm2 - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "start expedition - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "start expedition - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "back button - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "back button - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "start explore mountain - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "start explore mountain - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/volcano-voyager/sound/bgm/bgm1 - volcano voyager.WAV",
+        "kind": "audio",
+        "metadata": "",
+        "name": "../../../Downloads/volcano-voyager/sound/bgm/bgm1 - volcano voyager.WAV",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "crowd screaming before eruption - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "crowd screaming before eruption - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "volcanic tremor or trigger - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "volcanic tremor or trigger - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "stopwatch in simulation part - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stopwatch in simulation part - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "full one star collected - volcano voyager.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "full one star collected - volcano voyager.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "volcanic eruption - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "volcanic eruption - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "open the challenge mode - volcano voyager.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "open the challenge mode - volcano voyager.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "volcanic eruption - volcano voyager2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "volcanic eruption - volcano voyager2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "half star collected - volcano voyager.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "half star collected - volcano voyager.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "badge collected in final - volcano voyager.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "badge collected in final - volcano voyager.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2276,7 +2436,7 @@
       "name": "start scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -2289,7 +2449,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.34375202416123246,
+        "zoomFactor": 0.35534345588169947,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3130,6 +3290,12 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -3139,6 +3305,19 @@
               },
               "parameters": [
                 "adventure_badge"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "bgm2 - volcano voyager.wav",
+                "0",
+                "yes",
+                "50",
+                "1"
               ]
             }
           ],
@@ -3187,60 +3366,6 @@
                     ""
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "Subtext_button",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"home scene\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "Subtext_button2",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"home scene\"",
-                ""
               ]
             }
           ]
@@ -3508,6 +3633,102 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Subtext_button",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"home scene\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "start expedition - volcano voyager.wav",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Subtext_button2",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"home scene\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "start expedition - volcano voyager.wav",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -3622,7 +3843,7 @@
       "name": "home scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -3635,7 +3856,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.27253598967729514,
+        "zoomFactor": 0.3010461197182483,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5214,12 +5435,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"start scene\"",
-                ""
+                "back button - volcano voyager.wav",
+                "",
+                "20",
+                "1"
               ]
             }
           ]
@@ -5241,11 +5472,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"explore scene\"",
+                "\"explore scene\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "start explore mountain - volcano voyager.wav",
+                "",
+                "",
                 ""
               ]
             }
@@ -5725,7 +5967,7 @@
           "isLocked": false,
           "name": "lava",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -6980,6 +7222,19 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "volcanic eruption - volcano voyager.wav",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -7319,7 +7574,7 @@
       "name": "explore scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -7332,7 +7587,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702383,
+        "zoomFactor": 0.3010461197182464,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7581,8 +7836,8 @@
           "opacity": 0,
           "persistentUuid": "193ed870-0855-42df-868a-554a52aa2f3d",
           "width": 735,
-          "x": 243,
-          "y": -45,
+          "x": -16,
+          "y": 131,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -8104,12 +8359,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"home scene\"",
-                ""
+                "back button - volcano voyager.wav",
+                "",
+                "20",
+                "1"
               ]
             }
           ]
@@ -8150,12 +8415,11 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"explore scene2\"",
-                ""
+                "\"explore scene2\""
               ]
             }
           ]
@@ -8269,7 +8533,7 @@
       "name": "explore scene2",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -9259,7 +9523,7 @@
       "name": "explore scene3",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -10608,6 +10872,32 @@
                 "0.05",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "crowd screaming before eruption - volcano voyager.wav",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "volcanic tremor or trigger - volcano voyager.wav",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -10638,7 +10928,7 @@
                     "",
                     "\"next\"",
                     ">=",
-                    "2.5"
+                    "3"
                   ]
                 }
               ]
@@ -10647,12 +10937,11 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"explore scene4\"",
-                ""
+                "\"explore scene4\""
               ]
             }
           ]
@@ -10840,7 +11129,7 @@
       "name": "explore scene4",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -11857,12 +12146,11 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"explore scene5\"",
-                ""
+                "\"explore scene5\""
               ]
             }
           ]
@@ -11976,7 +12264,7 @@
       "name": "explore scene5",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -12979,12 +13267,11 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"explore scene6\"",
-                ""
+                "\"explore scene6\""
               ]
             }
           ]
@@ -13006,11 +13293,9 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"start scene\"",
                 ""
               ]
             }
@@ -13182,7 +13467,7 @@
       "name": "explore scene6",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -15286,6 +15571,19 @@
               "parameters": [
                 "point_star"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "stopwatch in simulation part - volcano voyager.wav",
+                "0",
+                "",
+                "70",
+                "1"
+              ]
             }
           ]
         },
@@ -15675,6 +15973,15 @@
             },
             {
               "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::TweenBehavior::AddObjectScaleTween3"
               },
               "parameters": [
@@ -15724,6 +16031,19 @@
                 "\"linear\"",
                 "5",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "full one star collected - volcano voyager.mp3",
+                "0",
+                "",
+                "100",
+                "1"
               ]
             }
           ]
@@ -16281,7 +16601,7 @@
           "isLocked": false,
           "name": "lava",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -16368,7 +16688,7 @@
       "name": "explore scene8",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -17535,11 +17855,9 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"start scene\"",
                 ""
               ]
             }
@@ -17799,6 +18117,19 @@
                 "=",
                 "challenge_background.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "open the challenge mode - volcano voyager.mp3",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -17865,12 +18196,11 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"home scene\"",
-                ""
+                "\"home scene\""
               ]
             }
           ]
@@ -18041,7 +18371,7 @@
       "name": "challenge level 1",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -18054,7 +18384,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.027644764053621422,
+        "zoomFactor": 0.24672586957406473,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19463,6 +19793,32 @@
                 "+",
                 "0.5"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "half star collected - volcano voyager.mp3",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -19629,12 +19985,11 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"challenge level 2\"",
-                ""
+                "\"challenge level 2\""
               ]
             }
           ]
@@ -19731,6 +20086,19 @@
                 "11",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "volcanic eruption - volcano voyager2.wav",
+                "0",
+                "",
+                "75",
+                "1"
+              ]
             }
           ]
         },
@@ -19761,11 +20129,41 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"home scene\"",
+                "\"home scene\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "back_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
                 ""
               ]
             }
@@ -19884,7 +20282,7 @@
       "name": "challenge level 2",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -20760,13 +21158,7 @@
           "name": "box_slot_1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "is_empty",
-              "type": "boolean",
-              "value": true
-            }
-          ],
+          "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -21026,13 +21418,7 @@
           "name": "box_slot_2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "is_empty",
-              "type": "boolean",
-              "value": true
-            }
-          ],
+          "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -21093,13 +21479,7 @@
           "name": "box_slot_3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "is_empty",
-              "type": "boolean",
-              "value": true
-            }
-          ],
+          "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -21946,6 +22326,28 @@
                         "bg_correct_1",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "60",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -21988,6 +22390,28 @@
                         "bg_incorrect_2",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "100",
+                        "1"
+                      ]
                     }
                   ]
                 },
@@ -22029,6 +22453,28 @@
                       "parameters": [
                         "bg_incorrect_3",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "100",
+                        "1"
                       ]
                     }
                   ]
@@ -22164,6 +22610,28 @@
                         "bg_incorrect_1",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "100",
+                        "1"
+                      ]
                     }
                   ]
                 },
@@ -22199,6 +22667,28 @@
                       "parameters": [
                         "bg_correct_2",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "60",
+                        "0"
                       ]
                     }
                   ]
@@ -22241,6 +22731,28 @@
                       "parameters": [
                         "bg_incorrect_3",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "100",
+                        "1"
                       ]
                     }
                   ]
@@ -22402,6 +22914,12 @@
                         "=",
                         "box_slot_1.Y()"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -22412,6 +22930,28 @@
                       "parameters": [
                         "bg_incorrect_1",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "100",
+                        "1"
                       ]
                     }
                   ]
@@ -22454,6 +22994,28 @@
                       "parameters": [
                         "bg_incorrect_2",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "100",
+                        "1"
                       ]
                     }
                   ]
@@ -22533,6 +23095,28 @@
                       "parameters": [
                         "bg_correct_3",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "60",
+                        "0"
                       ]
                     }
                   ]
@@ -22738,12 +23322,11 @@
                 },
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "PushScene"
                   },
                   "parameters": [
                     "",
-                    "\"challenge level 3\"",
-                    ""
+                    "\"challenge level 3\""
                   ]
                 }
               ]
@@ -22837,7 +23420,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "change position logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25239,6 +25821,37 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "back_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -25353,7 +25966,7 @@
       "name": "challenge level 3",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -28002,12 +28615,11 @@
                     },
                     {
                       "type": {
-                        "value": "Scene"
+                        "value": "PushScene"
                       },
                       "parameters": [
                         "",
-                        "\"eruption scene\"",
-                        ""
+                        "\"eruption scene\""
                       ]
                     },
                     {
@@ -28064,6 +28676,28 @@
                       "parameters": [
                         "bg_correct_A",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "60",
+                        "1"
                       ]
                     }
                   ]
@@ -28257,12 +28891,11 @@
                     },
                     {
                       "type": {
-                        "value": "Scene"
+                        "value": "PushScene"
                       },
                       "parameters": [
                         "",
-                        "\"eruption scene\"",
-                        ""
+                        "\"eruption scene\""
                       ]
                     },
                     {
@@ -28319,6 +28952,28 @@
                       "parameters": [
                         "bg_correct_B",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "60",
+                        "1"
                       ]
                     }
                   ]
@@ -28512,12 +29167,11 @@
                     },
                     {
                       "type": {
-                        "value": "Scene"
+                        "value": "PushScene"
                       },
                       "parameters": [
                         "",
-                        "\"eruption scene\"",
-                        ""
+                        "\"eruption scene\""
                       ]
                     },
                     {
@@ -28574,6 +29228,28 @@
                       "parameters": [
                         "bg_correct_C",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                        "0",
+                        "",
+                        "60",
+                        "1"
                       ]
                     }
                   ]
@@ -28715,12 +29391,11 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"closing scene\"",
-                ""
+                "\"closing scene\""
               ]
             },
             {
@@ -28965,7 +29640,7 @@
       "name": "closing scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -30625,6 +31300,19 @@
                 "5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "badge collected in final - volcano voyager.mp3",
+                "0",
+                "",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -30801,7 +31489,7 @@
               "parameters": [
                 "sub_scene",
                 "=",
-                "4"
+                "5"
               ]
             }
           ],
@@ -30870,12 +31558,11 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"start scene\"",
-                ""
+                "\"start scene\""
               ]
             }
           ]
@@ -31040,7 +31727,13 @@
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "start scene",
+      "name": "play sound",
+      "events": []
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
@@ -31174,7 +31867,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "change position logic",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -31295,601 +31987,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "DraggableBehavior::Dropped"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "Draggable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "box_slot_1",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_1",
-                                "is_empty",
-                                "False"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "DraggableBehavior::Dropped"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "Draggable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "box_slot_2",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_2",
-                                "is_empty",
-                                "False"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "DraggableBehavior::Dropped"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "Draggable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "box_slot_3",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_3",
-                                "is_empty",
-                                "False"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "box_obj_1",
-                        "=",
-                        "X_axis",
-                        "=",
-                        "Y_axis"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "toggle is_empty logic",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "set is_empty to false",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "box obj 1",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "DraggableBehavior::Dropped"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "Draggable"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "box_slot_3",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "box_slot_3",
-                                    "is_empty",
-                                    "True"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "MettreXY"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "=",
-                                "box_slot_3.X()",
-                                "=",
-                                "box_slot_3.Y()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_3",
-                                "is_empty",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "DraggableBehavior::Dropped"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "Draggable"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "box_slot_2",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "box_slot_2",
-                                    "is_empty",
-                                    "True"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "MettreXY"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "=",
-                                "box_slot_2.X()",
-                                "=",
-                                "box_slot_2.Y()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_2",
-                                "is_empty",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "DraggableBehavior::Dropped"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "Draggable"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "box_slot_1",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "box_slot_1",
-                                    "is_empty",
-                                    "True"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "MettreXY"
-                              },
-                              "parameters": [
-                                "box_obj_1",
-                                "=",
-                                "box_slot_1.X()",
-                                "=",
-                                "box_slot_1.Y()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_1",
-                                "is_empty",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "set is_empty to true",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "box obj 1",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "DraggableBehavior::Dragged"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "Draggable"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "box_slot_1",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "box_slot_1",
-                                    "is_empty",
-                                    "False"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_1",
-                                "is_empty",
-                                "True"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "DraggableBehavior::Dragged"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "Draggable"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "box_slot_2",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "box_slot_2",
-                                    "is_empty",
-                                    "False"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_2",
-                                "is_empty",
-                                "True"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "DraggableBehavior::Dragged"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "Draggable"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "box_obj_1",
-                                    "box_slot_3",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "box_slot_3",
-                                    "is_empty",
-                                    "False"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "box_slot_3",
-                                "is_empty",
-                                "True"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    }
-                  ],
-                  "parameters": []
                 }
               ],
               "parameters": []
