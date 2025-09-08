@@ -1221,6 +1221,40 @@
         "name": "NewSprite14",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "half star collected - volcano voyager2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "half star collected - volcano voyager2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7331,12 +7365,11 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"home scene\"",
-                "no"
+                "\"home scene\""
               ]
             }
           ],
@@ -7401,12 +7434,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "PushScene"
                   },
                   "parameters": [
                     "",
-                    "\"explore scene6\"",
-                    "no"
+                    "\"explore scene6\""
                   ]
                 }
               ]
@@ -15612,16 +15644,6 @@
                 "=",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"eruption scene\"",
-                ""
-              ]
             }
           ],
           "events": [
@@ -15740,11 +15762,9 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"start scene\"",
                 ""
               ]
             }
@@ -15918,12 +15938,11 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
-                "",
-                "\"eruption scene\"",
-                ""
+                "\"ganti scene\"",
+                "\"explore scene8\""
               ]
             }
           ]
@@ -16327,12 +16346,11 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"explore scene8\"",
-                ""
+                "\"explore scene8\""
               ]
             }
           ]
@@ -20022,7 +20040,7 @@
               },
               "parameters": [
                 "",
-                "\"challenge level 2\""
+                "\"challenge level 2.1\""
               ]
             }
           ]
@@ -26050,7 +26068,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827591455,
+        "zoomFactor": 0.34375202416123835,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -26059,6 +26077,11 @@
           "name": "is_answered",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "jumlah_kotak_benar",
+          "type": "number",
+          "value": 3
         }
       ],
       "instances": [
@@ -26302,7 +26325,7 @@
           "depth": 0,
           "height": 55,
           "keepRatio": true,
-          "layer": "",
+          "layer": "star",
           "name": "highlight_main_star",
           "persistentUuid": "8d478978-2906-45a3-bca5-5b7c0e07001d",
           "width": 55,
@@ -26319,7 +26342,7 @@
           "depth": 0,
           "height": 25,
           "keepRatio": true,
-          "layer": "",
+          "layer": "star",
           "name": "half_star",
           "persistentUuid": "21ae01ac-738f-4b67-9e5a-29bb641e5044",
           "width": 23.73887240356083,
@@ -26410,8 +26433,8 @@
           "name": "default_position",
           "persistentUuid": "3c0d49fb-87f0-404b-9557-713c6da54b04",
           "width": 0,
-          "x": 97,
-          "y": 1009,
+          "x": 104,
+          "y": 945,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26427,7 +26450,7 @@
           "persistentUuid": "903fc655-a330-4f08-9f24-b0e85061b993",
           "width": 0,
           "x": 332,
-          "y": 901,
+          "y": 928,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26442,8 +26465,8 @@
           "name": "default_position",
           "persistentUuid": "ee0f7091-b253-48bc-9093-dfe5cf7b7db3",
           "width": 0,
-          "x": 539,
-          "y": 1028,
+          "x": 551,
+          "y": 944,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26911,11 +26934,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 64.png",
+                      "image": "1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -26975,11 +26999,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 65.png",
+                      "image": "2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27044,7 +27069,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group67",
+                      "image": "3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28613,6 +28638,18 @@
                             },
                             {
                               "type": {
+                                "value": "SetCenter"
+                              },
+                              "parameters": [
+                                "box_obj",
+                                "=",
+                                "default_position.CenterX()",
+                                "=",
+                                "default_position.CenterY()"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
@@ -28905,16 +28942,6 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "DebuggerTools::ConsoleLog"
-                              },
-                              "parameters": [
-                                "\"PICKING ALL OBJECT \"+box_slot.id",
-                                "\"info\"",
-                                "="
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "SetCenter"
                               },
                               "parameters": [
@@ -28987,6 +29014,38 @@
                                     "bg_correct",
                                     ""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StopSoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                                    "0",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DebuggerTools::ConsoleLog"
+                                  },
+                                  "parameters": [
+                                    "jumlah_kotak_benar",
+                                    "\"info\"",
+                                    ""
+                                  ]
                                 }
                               ]
                             },
@@ -29050,6 +29109,38 @@
                                   "parameters": [
                                     "bg_incorrect",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DebuggerTools::ConsoleLog"
+                                  },
+                                  "parameters": [
+                                    "jumlah_kotak_benar",
+                                    "\"info\"",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StopSoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                                    "0",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -29159,6 +29250,38 @@
                                 "bg_correct",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "DebuggerTools::ConsoleLog"
+                              },
+                              "parameters": [
+                                "jumlah_kotak_benar",
+                                "\"info\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "right answer in challenge mode lvl 1 & 2 & 3 - volcano voyager.wav",
+                                "0",
+                                "",
+                                "100",
+                                "1"
+                              ]
                             }
                           ]
                         },
@@ -29222,6 +29345,38 @@
                               "parameters": [
                                 "bg_incorrect",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "DebuggerTools::ConsoleLog"
+                              },
+                              "parameters": [
+                                "jumlah_kotak_benar",
+                                "\"info\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "wrong answer in challenge mode lvl 2 - volcano voyager.wav",
+                                "0",
+                                "",
+                                "100",
+                                "1"
                               ]
                             }
                           ]
@@ -29358,6 +29513,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": true,
+              "folded": true,
               "name": "box 1 logic",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -30333,74 +30489,325 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "NumberObjectVariable"
                   },
-                  "parameters": [],
-                  "subInstructions": [
+                  "parameters": [
+                    "bg_correct",
+                    "id",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "PosX"
+                        "value": "Visible"
                       },
                       "parameters": [
-                        "box_obj",
-                        "=",
-                        "box_slot_1.X()"
+                        "bg_correct"
                       ]
                     },
                     {
                       "type": {
-                        "value": "PosY"
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "box_obj",
-                        "=",
-                        "box_slot_1.Y()"
+                        "jumlah_kotak_benar",
+                        "+",
+                        "1"
                       ]
                     },
                     {
                       "type": {
-                        "value": "PosY"
+                        "value": "DebuggerTools::ConsoleLog"
                       },
                       "parameters": [
-                        "box_obj_2",
-                        "=",
-                        "box_slot_2.Y()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "box_obj_2",
-                        "=",
-                        "box_slot_2.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "box_obj_3",
-                        "=",
-                        "box_slot_3.Y()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "box_obj_3",
-                        "=",
-                        "box_slot_3.X()"
+                        "jumlah_kotak_benar",
+                        "\"info\"",
+                        ""
                       ]
                     }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "bg_correct"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "\"info\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bg_correct",
+                    "id",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "bg_correct"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "\"info\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "bg_correct"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "\"info\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bg_correct",
+                    "id",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "bg_correct"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "\"info\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "bg_correct"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "jumlah_kotak_benar",
+                        "\"info\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "jumlah_kotak_benar",
+                    "=",
+                    "3"
                   ]
                 },
                 {
@@ -30434,10 +30841,10 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "half_star",
+                    "highlight_main_star",
                     "Tween",
-                    "\"main_star_Go_bigger\"",
-                    "1",
+                    "\"highlight_main_star_Go_bigger\"",
+                    "0.8",
                     "\"linear\"",
                     "2",
                     "",
@@ -30449,10 +30856,10 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "highlight_main_star",
+                    "half_star",
                     "Tween",
-                    "\"highlight_main_star_Go_bigger\"",
-                    "0.8",
+                    "\"main_star_Go_bigger\"",
+                    "1",
                     "\"linear\"",
                     "2",
                     "",
@@ -30471,6 +30878,28 @@
                     "\"linear\"",
                     "5",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "half star collected - volcano voyager2.mp3",
+                    "0",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -30616,6 +31045,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
+          "folded": true,
           "name": "change position logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31171,6 +31601,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "box obj 3",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -31448,6 +31879,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
+          "folded": true,
           "name": "toggle is_empty logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32787,6 +33219,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
+          "folded": true,
           "name": "box collision with another boxes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33075,6 +33508,59 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "star",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
