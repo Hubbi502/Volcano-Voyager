@@ -36243,7 +36243,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "anwer logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36405,6 +36404,36 @@
                     },
                     {
                       "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_A",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_B",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_C",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "StopSoundCanal"
                       },
                       "parameters": [
@@ -36532,6 +36561,36 @@
                     "\"after : \" + ToJSON(question_json)",
                     "\"info\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_C",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_B",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_A",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 },
                 {
@@ -36701,6 +36760,36 @@
                     },
                     {
                       "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_A",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_B",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_C",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "StopSoundCanal"
                       },
                       "parameters": [
@@ -36828,6 +36917,36 @@
                     "\"after : \" + ToJSON(question_json)",
                     "\"info\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_B",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_C",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_A",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 },
                 {
@@ -36997,6 +37116,36 @@
                     },
                     {
                       "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_A",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_B",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "bg_answer_C",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "StopSoundCanal"
                       },
                       "parameters": [
@@ -37124,6 +37273,36 @@
                     "\"after : \" + ToJSON(question_json)",
                     "\"info\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_B",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_C",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bg_answer_A",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 },
                 {
