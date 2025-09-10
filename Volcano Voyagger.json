@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Volcano Voyagger",
     "description": "",
     "author": "",
@@ -5471,10 +5471,11 @@
           "actions": [
             {
               "type": {
-                "value": "PopScene"
+                "value": "PushScene"
               },
               "parameters": [
-                ""
+                "",
+                "\"start scene\""
               ]
             },
             {
@@ -5723,15 +5724,84 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"challenge level 1\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "star_count",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"challenge level 1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "star_count",
+                    "=",
+                    "1.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"challenge level 2.1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "star_count",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"challenge level 3\""
+                  ]
+                }
               ]
             }
           ]
@@ -7306,7 +7376,7 @@
                 "0",
                 "1300",
                 "\"linear\"",
-                "5",
+                "2",
                 ""
               ]
             },
@@ -7321,7 +7391,7 @@
                 "-70",
                 "1300",
                 "\"linear\"",
-                "7",
+                "3",
                 ""
               ]
             },
@@ -7336,7 +7406,7 @@
                 "0",
                 "0",
                 "\"linear\"",
-                "7",
+                "3",
                 ""
               ]
             }
@@ -7362,17 +7432,7 @@
               "parameters": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "PushScene"
-              },
-              "parameters": [
-                "",
-                "\"home scene\""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7397,6 +7457,15 @@
                     "is_lava_drop_in_home_scene",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"challenge level 1\""
                   ]
                 }
               ]
@@ -7425,13 +7494,7 @@
                     "True",
                     "1"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
                     "value": "PushScene"
@@ -8579,7 +8642,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748888,
+        "zoomFactor": 0.32169117647058876,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8696,23 +8759,6 @@
           "x": 265,
           "y": 500,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "back_button",
-          "persistentUuid": "886c95c2-5c49-4792-9b3c-4afa0c8f3891",
-          "width": 125,
-          "x": 13,
-          "y": 20,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12310,7 +12356,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702398,
+        "zoomFactor": 0.23089183385224996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12499,23 +12545,6 @@
           "x": 316,
           "y": 704,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 95,
-          "keepRatio": true,
-          "layer": "",
-          "name": "back_button",
-          "persistentUuid": "a542e541-31a5-482a-b83c-f9822174e40d",
-          "width": 120,
-          "x": 21,
-          "y": 24,
-          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13513,7 +13542,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.13581872579544246,
+        "zoomFactor": 0.18305734955560302,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13633,23 +13662,6 @@
           "x": -11,
           "y": -3,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 95,
-          "keepRatio": true,
-          "layer": "",
-          "name": "back_button",
-          "persistentUuid": "a542e541-31a5-482a-b83c-f9822174e40d",
-          "width": 120,
-          "x": 21,
-          "y": 24,
-          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15690,7 +15702,7 @@
                     "\"lava1_go_down\"",
                     "1440",
                     "\"linear\"",
-                    "5",
+                    "3",
                     ""
                   ]
                 },
@@ -15704,7 +15716,7 @@
                     "\"lava1_go_down\"",
                     "1440",
                     "\"linear\"",
-                    "3",
+                    "1",
                     ""
                   ]
                 }
@@ -15942,7 +15954,7 @@
               },
               "parameters": [
                 "\"ganti scene\"",
-                "\"explore scene8\""
+                "\"eruption scene\""
               ]
             }
           ]
@@ -15963,122 +15975,130 @@
           "conditions": [
             {
               "type": {
-                "value": "PosY"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "first_aid",
-                "<",
-                "safety_slot.Y() + safety_slot.Width() - first_aid.Width()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "first_aid",
-                "<",
-                "safety_slot.X() + safety_slot.Width() - first_aid.Width()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "first_aid",
-                ">",
-                "safety_slot.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "first_aid",
-                ">",
-                "safety_slot.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "get_to_safe_route",
-                "<",
-                "safety_slot.X() + safety_slot.Width() - first_aid.Width()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "get_to_safe_route",
-                "<",
-                "safety_slot.Y() + safety_slot.Width() - first_aid.Width()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "get_to_safe_route",
-                ">",
-                "safety_slot.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "get_to_safe_route",
-                ">",
-                "safety_slot.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "mask",
-                "<",
-                "safety_slot.Y() + safety_slot.Width() - first_aid.Width()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "mask",
-                "<",
-                "safety_slot.X() + safety_slot.Width() - first_aid.Width()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "mask",
-                ">",
-                "safety_slot.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "mask",
-                ">",
-                "safety_slot.Y()"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "first_aid",
+                    "<",
+                    "safety_slot.Y() + safety_slot.Width() - first_aid.Width()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "first_aid",
+                    "<",
+                    "safety_slot.X() + safety_slot.Width() - first_aid.Width()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "first_aid",
+                    ">",
+                    "safety_slot.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "first_aid",
+                    ">",
+                    "safety_slot.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "get_to_safe_route",
+                    "<",
+                    "safety_slot.X() + safety_slot.Width() - first_aid.Width()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "get_to_safe_route",
+                    "<",
+                    "safety_slot.Y() + safety_slot.Width() - first_aid.Width()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "get_to_safe_route",
+                    ">",
+                    "safety_slot.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "get_to_safe_route",
+                    ">",
+                    "safety_slot.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "mask",
+                    "<",
+                    "safety_slot.Y() + safety_slot.Width() - first_aid.Width()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "mask",
+                    "<",
+                    "safety_slot.X() + safety_slot.Width() - first_aid.Width()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "mask",
+                    ">",
+                    "safety_slot.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "mask",
+                    ">",
+                    "safety_slot.Y()"
+                  ]
+                }
               ]
             },
             {
@@ -16089,6 +16109,36 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "get_to_safe_route",
+                "Draggable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "first_aid",
+                "Draggable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "mask",
+                "Draggable",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -16154,7 +16204,7 @@
                 "\"main_star_Go_bigger\"",
                 "1",
                 "\"linear\"",
-                "2",
+                "1",
                 "",
                 "yes"
               ]
@@ -16178,7 +16228,7 @@
                 "\"highlight_main_star_Go_bigger\"",
                 "0.8",
                 "\"linear\"",
-                "2",
+                "1",
                 "",
                 "yes"
               ]
@@ -16279,7 +16329,7 @@
                 "560",
                 "15",
                 "\"easeOutQuad\"",
-                "2",
+                "1",
                 ""
               ]
             },
@@ -16293,7 +16343,7 @@
                 "\"main_star_Go_smaller\"",
                 "0.15",
                 "\"linear\"",
-                "2",
+                "1",
                 "no",
                 ""
               ]
@@ -16380,7 +16430,7 @@
                 "\"highligth_main_star_rotate\"",
                 "360",
                 "\"linear\"",
-                "5",
+                "4",
                 ""
               ]
             },
@@ -16394,7 +16444,7 @@
                 "\"highligth_main_star_opacity\"",
                 "0",
                 "\"linear\"",
-                "3",
+                "2",
                 ""
               ]
             }
@@ -18435,7 +18485,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24672586957406473,
+        "zoomFactor": 0.32169117647059187,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18476,23 +18526,6 @@
           "x": 144,
           "y": 59,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "back_button",
-          "persistentUuid": "3cb5cec6-316d-43a0-9b4c-694d6b3709f5",
-          "width": 125,
-          "x": 13,
-          "y": 20,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19756,6 +19789,26 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "wrong_answer_border",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "strato_volcano",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -19792,7 +19845,7 @@
                 "\"main_star_Go_bigger\"",
                 "1",
                 "\"linear\"",
-                "2",
+                "1",
                 "",
                 "yes"
               ]
@@ -19816,7 +19869,7 @@
                 "\"highlight_main_star_Go_bigger\"",
                 "0.8",
                 "\"linear\"",
-                "2",
+                "1",
                 "",
                 "yes"
               ]
@@ -20062,6 +20115,26 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "wrong_answer_border",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "strato_volcano",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -20119,7 +20192,7 @@
                 "-70",
                 "1300",
                 "\"linear\"",
-                "7",
+                "3",
                 ""
               ]
             },
@@ -20134,7 +20207,7 @@
                 "-70",
                 "1300",
                 "\"linear\"",
-                "11",
+                "5",
                 ""
               ]
             },
@@ -20184,38 +20257,7 @@
               },
               "parameters": [
                 "",
-                "\"home scene\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "back_button",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PopScene"
-              },
-              "parameters": [
-                ""
+                "\"challenge level 1\""
               ]
             }
           ]
@@ -26068,7 +26110,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416123835,
+        "zoomFactor": 0.3797121001948009,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -26114,22 +26156,6 @@
           "x": 144,
           "y": 59,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "layer": "",
-          "name": "back_button",
-          "persistentUuid": "3cb5cec6-316d-43a0-9b4c-694d6b3709f5",
-          "width": 125,
-          "x": 13,
-          "y": 20,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30846,7 +30872,7 @@
                     "\"highlight_main_star_Go_bigger\"",
                     "0.8",
                     "\"linear\"",
-                    "2",
+                    "1",
                     "",
                     "yes"
                   ]
@@ -30861,7 +30887,7 @@
                     "\"main_star_Go_bigger\"",
                     "1",
                     "\"linear\"",
-                    "2",
+                    "1",
                     "",
                     "yes"
                   ]
@@ -30900,6 +30926,16 @@
                     "",
                     "100",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "box_obj",
+                    "Draggable",
+                    ""
                   ]
                 }
               ]
@@ -33923,22 +33959,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "layer": "",
-          "name": "back_button",
-          "persistentUuid": "169d6ca5-959c-4b7b-8f32-704df31c0015",
-          "width": 125,
-          "x": 13,
-          "y": 20,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
           "height": 58,
           "keepRatio": true,
@@ -36223,6 +36243,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "anwer logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36299,11 +36320,12 @@
                     },
                     {
                       "type": {
-                        "value": "PushScene"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "",
-                        "\"eruption scene\""
+                        "eruption_scene_to",
+                        "=",
+                        "0"
                       ]
                     },
                     {
@@ -36314,6 +36336,25 @@
                         "star_count",
                         "=",
                         "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "is_tantangan_open",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"eruption scene\""
                       ]
                     }
                   ]
@@ -36575,11 +36616,12 @@
                     },
                     {
                       "type": {
-                        "value": "PushScene"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "",
-                        "\"eruption scene\""
+                        "star_count",
+                        "=",
+                        "2"
                       ]
                     },
                     {
@@ -36587,9 +36629,28 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "star_count",
+                        "eruption_scene_to",
                         "=",
-                        "2"
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "is_tantangan_open",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"eruption scene\""
                       ]
                     }
                   ]
@@ -36851,11 +36912,12 @@
                     },
                     {
                       "type": {
-                        "value": "PushScene"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "",
-                        "\"eruption scene\""
+                        "star_count",
+                        "=",
+                        "2"
                       ]
                     },
                     {
@@ -36863,9 +36925,28 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "star_count",
+                        "eruption_scene_to",
                         "=",
-                        "2"
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "is_tantangan_open",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"eruption scene\""
                       ]
                     }
                   ]
@@ -37075,21 +37156,21 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
-              },
-              "parameters": [
-                "",
-                "\"closing scene\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "star_count",
                 "+",
                 "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"closing scene\""
               ]
             }
           ]
